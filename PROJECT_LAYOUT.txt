@@ -1,0 +1,17 @@
+Hands-On Wearables companion reference code
+
+This archive intentionally does NOT contain README.md, because the repository README is maintained separately.
+
+The source files are aligned to the code snippets printed in Hands-On Wearables.
+Where the book prints a partial snippet, the repository adds the smallest surrounding code needed to make the example understandable and reusable.
+
+Chapters 1-8:
+  chapter-NN-.../wearOS
+  chapter-NN-.../watchOS
+
+Chapter 9:
+  starter/   = small pre-existing PocketBrief phone apps, with no wearable support
+  completed/ = the same product extended with WristBrief-based wearable companions
+
+See BOOK_SNIPPET_MAP.md for page-to-file mapping.
+Run python3 VERIFY_SNIPPETS.py to perform a textual alignment check against the manuscript's key snippets.
